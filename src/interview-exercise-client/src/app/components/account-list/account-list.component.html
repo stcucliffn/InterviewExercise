@@ -1,0 +1,36 @@
+<ng-template #spinny>
+  <app-spinny></app-spinny>
+</ng-template>
+
+<div *ngIf="(accounts$ | async) as accounts; else spinny">
+  <div class="form-set">
+    <div class="overline">
+      Manage your accounts
+    </div>
+
+    <h1 class="color-h1">Your primary accounts.</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Account</th>
+          <th>Ending in</th>
+          <th>Balance</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr app-account-list-item *ngFor="let account of accounts" [account]="account" (updateAccount)="updateAccount($event)" (deleteAccount)="deleteAccount($event)"></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="form-set">
+    <div class="button-group">
+      <div class="right-group">
+        <!-- <button class="primary-button" routerLink="/accounts/add">Add new account</button> -->
+        <button class="primary-button" (click)="addAccount()">Add new account</button>
+      </div>
+    </div>
+  </div>
+</div>

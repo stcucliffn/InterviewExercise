@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Manage your accounts</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+  <div id="header-section" style="display: none;">
+    <div class="stcu-header white-logo-header">
+      <div class="stcu-logo"></div>
+    </div>
+  </div>
+  <div class="form-space">
+    <app-root>
+      <div>
+        <svg class="spinny" width="145px" height="125px" viewbox="-1 -1 147 127">
+          <path class="spinny-path" d="M145,35.58C145,18.92,135.9,1.46,112.27.1Q110.55,0,109,0C86.83,0,85.07,14,72.52,14S58.2,0,36.07,0C35,0,33.92,0,32.77.1,9.14,1.46,0,18.92,0,35.58,0,55.63,11.39,71.44,61.78,115.7c2.43,2.13,5.7,4.82,10.74,4.82s8.31-2.69,10.74-4.82C133.65,71.44,145,55.63,145,35.58Z"></path>
+        </svg>
+        <style>
+          .spinny {
+            top: 250px;
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            animation: pump 1750ms infinite;
+          }
+
+          .spinny-path {
+            fill: #982371;
+            animation: pump-color 1750ms infinite;
+          }
+
+          @keyframes pump {
+            0% {
+              transform: scale(0.9);
+            }
+            8% {
+              transform: scale(0.7);
+            }
+            17% {
+              transform: scale(0.8);
+            }
+            92% {
+              transform: scale(0.8);
+            }
+            100% {
+              transform: scale(0.9);
+            }
+          }
+
+          @keyframes pump-color {
+            0% {
+              fill: #bf3082;
+            }
+            6% {
+              fill: #982371;
+            }
+            17% {
+              fill: #5d164a;
+            }
+            90% {
+              fill: #5d164a;
+            }
+            96% {
+              fill: #982371;
+            }
+            100% {
+              fill: #bf3082;
+            }
+          }
+        </style>
+      </div>
+    </app-root>
+  </div>
+
+  <script type="text/javascript">
+    window.onload = function () {
+      var isInIframe = (function () {
+        try {
+          return window.self !== window.top;
+        } catch (e) {
+          return true;
+        }
+      })();
+
+      if (!isInIframe) {
+        document.getElementById('header-section').style.display = 'flex';
+      }
+    }
+  </script>
+</body>
+
+</html>

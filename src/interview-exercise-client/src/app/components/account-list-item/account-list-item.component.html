@@ -1,0 +1,13 @@
+<th [attr.data-label]="account.type">
+  <a [routerLink]="['/accounts', account.id]">{{account.type}}</a>
+</th>
+<td data-label="Ending in">{{account.lastFour}}</td>
+<td data-label="Balance">{{account.balance | currency:'USD'}}</td>
+<td>
+  <div class="button-group">
+    <div class="right-group">
+      <button class="tertiary-button" (click)="onUpdate(account)">Update</button>
+      <button class="tertiary-button" (click)="onDelete(account.id)">Delete</button>
+    </div>
+  </div>
+</td>
