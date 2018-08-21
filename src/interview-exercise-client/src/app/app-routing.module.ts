@@ -1,30 +1,32 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { AccountDetailComponent } from './components/account-detail/account-detail.component';
 import { AccountListComponent } from './components/account-list/account-list.component';
+import { ErrorComponent } from './components/error/error.component';
 
 const routes: Routes = [
   {
-    path: 'accounts/add',
-    component: AccountDetailComponent
-  },
-  {
-    path: 'accounts/:id',
-    component: AccountDetailComponent
+    path: '',
+    redirectTo: 'accounts',
+    pathMatch: 'full'
   },
   {
     path: 'accounts',
-    component: AccountListComponent
+    component: AccountListComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'error',
+    component: ErrorComponent
   },
   {
     path: '**',
-    redirectTo: 'accounts'
+    redirectTo: 'error'
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { enableTracing: false })],
   exports: [RouterModule]
 })
 export class AppRoutingModule {}

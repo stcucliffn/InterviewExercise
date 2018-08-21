@@ -2,7 +2,7 @@
   <app-spinny></app-spinny>
 </ng-template>
 
-<div *ngIf="(accounts$ | async) as accounts; else spinny">
+<div *ngIf="accounts; else spinny">
   <div class="form-set">
     <div class="overline">
       Manage your accounts
@@ -20,17 +20,17 @@
         </tr>
       </thead>
       <tbody>
-        <tr app-account-list-item *ngFor="let account of accounts" [account]="account" (updateAccount)="updateAccount($event)" (deleteAccount)="deleteAccount($event)"></tr>
+        <tr app-account-list-item *ngFor="let account of accounts" [account]="account"></tr>
       </tbody>
     </table>
   </div>
 
-  <div class="form-set">
+  <!-- TODO: Possibly implement this feature in the future -->
+  <!-- <div class="form-set">
     <div class="button-group">
       <div class="right-group">
-        <!-- <button class="primary-button" routerLink="/accounts/add">Add new account</button> -->
         <button class="primary-button" (click)="addAccount()">Add new account</button>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>

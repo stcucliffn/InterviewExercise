@@ -10,6 +10,7 @@ import { AccountDetailComponent } from './components/account-detail/account-deta
 import { AccountListComponent } from './components/account-list/account-list.component';
 import { AccountListItemComponent } from './components/account-list-item/account-list-item.component';
 import { SpinnyComponent } from './components/spinny/spinny.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SpinnyComponent } from './components/spinny/spinny.component';
     AccountDetailComponent,
     AccountListComponent,
     AccountListItemComponent,
-    SpinnyComponent
+    SpinnyComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,

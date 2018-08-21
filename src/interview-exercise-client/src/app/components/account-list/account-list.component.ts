@@ -10,46 +10,13 @@ import { Account } from '../../core/models/account';
   styleUrls: ['./account-list.component.scss']
 })
 export class AccountListComponent implements OnInit {
-  public accounts$: Observable<Account[]>;
+  public accounts: Account[];
 
   constructor(private accountsService: AccountsService) {}
 
   ngOnInit() {
-    this.accounts$ = this.accountsService.getAccounts();
-  }
-
-  public addAccount(): void {
-    this.accountsService
-      .addAccount({
-        lastFour: '1234',
-        type: 'Savings Account',
-        accountHolder: 'Aaron Nay',
-        balance: 0
-      } as Account)
-      .subscribe(
-        (account: Account) => {
-          this.accounts$ = this.accountsService.getAccounts();
-        },
-        error => console.log(error)
-      );
-  }
-
-  public updateAccount(account: Account): void {
-    account.balance += 100;
-    this.accountsService.updateAccount(account).subscribe(
-      (updatedAccount: Account) => {
-        this.accounts$ = this.accountsService.getAccounts();
-      },
-      error => console.log(error)
-    );
-  }
-
-  public deleteAccount(accountId: string): void {
-    this.accountsService.deleteAccount(accountId).subscribe(
-      () => {
-        this.accounts$ = this.accountsService.getAccounts();
-      },
-      error => console.log(error)
-    );
+    this.accountsService.getAccounts(1).subscribe((accounts: Account[]) => {
+      this.accounts = accounts;
+    });
   }
 }

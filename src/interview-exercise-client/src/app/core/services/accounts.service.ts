@@ -13,24 +13,15 @@ export class AccountsService {
 
   constructor(private http: HttpClient) {}
 
-  public getAccounts(): Observable<Account[]> {
-    return this.http.get<Account[]>(this.apiUrl);
+  public getAccounts(memberId: number): Observable<Account[]> {
+    return this.http.get<Account[]>(`${this.apiUrl}?memberId=${memberId}`);
   }
 
-  public getAccount(id: string): Observable<Account> {
-    return this.http.get<Account>(`${this.apiUrl}/${id}`);
+  public getAccount(id: string, memberId: number): Observable<Account> {
+    return this.http.get<Account>(`${this.apiUrl}/${id}?memberId=${memberId}`);
   }
 
-  public addAccount(account: Account): Observable<Account> {
-    account.id = uuid();
-    return this.http.post<Account>(this.apiUrl, account);
-  }
-
-  public updateAccount(account: Account): Observable<Account> {
+  public editAccount(account: Account): Observable<Account> {
     return this.http.put<Account>(`${this.apiUrl}/${account.id}`, account);
-  }
-
-  public deleteAccount(id: string): Observable<any> {
-    return this.http.delete(`${this.apiUrl}/${id}`);
   }
 }
