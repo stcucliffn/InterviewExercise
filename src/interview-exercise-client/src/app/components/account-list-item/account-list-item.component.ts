@@ -10,8 +10,6 @@ import { Account } from '../../core/models/account';
 export class AccountListItemComponent implements OnInit {
   @Input()
   account: Account;
-  @Output()
-  deleteAccount = new EventEmitter<string>();
 
   constructor() {}
 
