@@ -1,3 +1,26 @@
-<p class="alert alert-warning">
-  TODO: Implement <strong>account-detail</strong> component!
-</p>
+<ng-template #spinny>
+  <app-spinny></app-spinny>
+</ng-template>
+
+<div *ngIf="account; else spinny">
+  <div class="form-set">
+    <h2 class="color-h2">Your {{account.type}} ending in {{account.lastFour}}.</h2>
+
+    <dl>
+      <dt>Account holder</dt>
+      <dd>{{account.accountHolder}}</dd>
+      <dt>Balance</dt>
+      <dd>{{account.balance | currency:'USD'}}</dd>
+    </dl>
+
+    <div class="form-set">
+      <div class="button-group">
+        <div class="left-group">
+          <button class="secondary-button" [routerLink]="['/accounts']">Back to listing</button>
+        </div>
+        <div class="right-group">
+          <button class="primary-button" [routerLink]="['/account/edit', account.id]">Edit</button>
+        </div>
+      </div>
+    </div>
+  </div>

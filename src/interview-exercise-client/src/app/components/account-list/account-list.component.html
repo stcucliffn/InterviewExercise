@@ -20,7 +20,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr app-account-list-item *ngFor="let account of accounts" [account]="account"></tr>
+        <tr app-account-list-item *ngFor="let account of accounts" [account]="account" [routerLink]="['/account/edit', account.id]"></tr>
       </tbody>
     </table>
   </div>
