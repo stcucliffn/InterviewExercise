@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace InterviewExercise.Core.Models
+﻿namespace InterviewExercise.Core.Models
 {
     public class AccountDTO
     {

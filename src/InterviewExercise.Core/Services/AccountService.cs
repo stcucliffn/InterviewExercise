@@ -1,9 +1,7 @@
 ﻿using InterviewExercise.Core.Models;
 using InterviewExercise.Core.Repositories;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace InterviewExercise.Core.Services
 {
@@ -16,8 +14,8 @@ namespace InterviewExercise.Core.Services
 
     public class AccountService : IAccountService
     {
-        private IAccountRepository accountRepository;
-        private IMemberRepository memberRepository;
+        private readonly IAccountRepository accountRepository;
+        private readonly IMemberRepository memberRepository;
 
         public AccountService(IAccountRepository accountRepository, IMemberRepository memberRepository)
         {

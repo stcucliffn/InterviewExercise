@@ -1,9 +1,6 @@
 ﻿using Dapper;
 using InterviewExercise.Core.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Text;
 
 namespace InterviewExercise.Core.Repositories
 {
@@ -14,7 +11,8 @@ namespace InterviewExercise.Core.Repositories
 
     public class MemberRepository : IMemberRepository
     {
-        private string sqlConnection;
+        private readonly string sqlConnection;
+
         public MemberRepository(string sqlConnection)
         {
             this.sqlConnection = sqlConnection;

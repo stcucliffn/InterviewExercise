@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using InterviewExercise.Core.Models;
+﻿using InterviewExercise.Core.Models;
 using InterviewExercise.Core.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace InterviewExercise.Api.Controllers
 {

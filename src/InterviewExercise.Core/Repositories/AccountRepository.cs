@@ -26,7 +26,7 @@ namespace InterviewExercise.Core.Repositories
             using (var connection = new SqlConnection(sqlConnection))
             {
                 var accounts = connection.Query<Account>(
-                    "select * from Account where member_id = {=Id}",
+                    "select * from Account where member_id = @Id",
                     new { Id = int.Parse(memberId) });
 
                 return accounts.ToList();
@@ -38,7 +38,7 @@ namespace InterviewExercise.Core.Repositories
             using (var connection = new SqlConnection(sqlConnection))
             {
                 var account = connection.QueryFirst<Account>(
-                    "select * from Account where account_id = {=Id}",
+                    "select * from Account where account_id = @Id",
                     new { Id = int.Parse(accountId) });
 
                 return account;
