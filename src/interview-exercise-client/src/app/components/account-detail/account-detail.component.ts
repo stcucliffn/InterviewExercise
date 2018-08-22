@@ -23,7 +23,7 @@ export class AccountDetailComponent implements OnInit {
     // f1ce4c96-703e-46c0-973f-41a1eba95731
 
     this.accountsService
-      .getAccount(this.route.snapshot.paramMap['id'], 1)
+      .getAccount(this.route.snapshot.paramMap.get('id'), 1)
       .subscribe((account: Account) => {
         this.account = account;
       });
