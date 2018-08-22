@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Dapper;
+using InterviewExercise.Core.Repositories;
+using InterviewExercise.Core.Services;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -18,9 +21,12 @@ namespace InterviewExercise.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //DefaultTypeMap.MatchNamesWithUnderscores = true;
-            //var sqlConnection = "Data Source=(LOCALDB)\\PROJECTSV13;Initial Catalog = Database.InterviewExercise";
+            DefaultTypeMap.MatchNamesWithUnderscores = true;
+            var sqlConnection = "Data Source=(LOCALDB)\\PROJECTSV13;Initial Catalog = Database.InterviewExercise";
 
+            services.AddTransient<IMemberRepository>(container => new MemberRepository(sqlConnection));
+            services.AddTransient<IAccountRepository>(container => new AccountRepository(sqlConnection));
+            services.AddTransient<IAccountService, AccountService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -36,7 +42,7 @@ namespace InterviewExercise.Api
                 app.UseHsts();
             }
 
-            // app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
