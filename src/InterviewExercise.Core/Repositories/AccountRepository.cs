@@ -1,10 +1,8 @@
 ﻿using Dapper;
 using InterviewExercise.Core.Models;
-using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
 
 namespace InterviewExercise.Core.Repositories
 {
@@ -52,7 +50,7 @@ namespace InterviewExercise.Core.Repositories
             using (var connection = new SqlConnection(sqlConnection))
             {
                 connection.Execute(
-                    "update Account set nickname = {=Nickname} where account_id = {=Id}",
+                    "update Account set nickname = @Nickname where account_id = @Id",
                     new { Nickname = account.Nickname, Id = account.AccountId });
 
                 return account;
