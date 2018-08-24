@@ -1,0 +1,17 @@
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Api.deps.json
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Api.runtimeconfig.json
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Api.runtimeconfig.dev.json
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Api.dll
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.csprojAssemblyReference.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.csproj.CoreCompileInputs.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.RazorAssemblyInfo.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.RazorAssemblyInfo.cs
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.AssemblyInfoInputs.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.AssemblyInfo.cs
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.RazorTargetAssemblyInfo.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Api.pdb
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Core.dll
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\bin\Debug\netcoreapp2.1\InterviewExercise.Core.pdb
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.csproj.CopyComplete
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.dll
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Api\obj\Debug\netcoreapp2.1\InterviewExercise.Api.pdb

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using InterviewExercise.Core.Models;
+using InterviewExercise.Core.Services;
 
 namespace InterviewExercise.Api.Controllers
 {
@@ -19,9 +21,12 @@ namespace InterviewExercise.Api.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public ActionResult<IEnumerable<Account>> Get(int id)
         {
-            return "value";
+            var AccountInst = new AccountService();
+            var Accounts = AccountInst.GetAccounts(id.ToString());
+
+            return Accounts;
         }
 
         // POST api/values

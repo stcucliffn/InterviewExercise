@@ -37,17 +37,9 @@
     <TargetFrameworkProfile />
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
-  <PropertyGroup>
-    <SyncToOfflineSchemaModel>True</SyncToOfflineSchemaModel>
-    <!--
-    <SyncToOfflineSchemaModelBySchema>True</SyncToOfflineSchemaModelBySchema>
-    <SyncToOfflineSchemaModelObjectTypes>Table;Assembly;Contract;Default;EventNotification;FullTextCatalog;FullTextStoplist;MessageType;PartitionFunction;PartitionScheme;Queue;ServiceBinding;Role;Route;Rule;Schema;SearchPropertyList;Service;Sequence;Synonym;User;UserDefinedType;XmlSchemaCollection</SyncToOfflineSchemaModelObjectTypes>
-    <SchemaModelSubFolder>Schema-Model</SchemaModelSubFolder>
-    -->
-  </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION PROGRAMMABLE OBJECT OPTIONS -->
   <PropertyGroup>
-    <DeployChangesForProgrammableObjects>True</DeployChangesForProgrammableObjects>
+    <DeployChangesForProgrammableObjects>False</DeployChangesForProgrammableObjects>
     <!--
     <DeployChangesForProgrammableObjects>True</DeployChangesForProgrammableObjects>
     <DeployChangesInitialImportDone>False</DeployChangesInitialImportDone>

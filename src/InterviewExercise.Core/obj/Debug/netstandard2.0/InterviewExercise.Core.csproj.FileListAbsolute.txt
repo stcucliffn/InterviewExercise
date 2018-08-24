@@ -1,0 +1,9 @@
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\bin\Debug\netstandard2.0\InterviewExercise.Core.deps.json
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\bin\Debug\netstandard2.0\InterviewExercise.Core.dll
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.csprojAssemblyReference.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.csproj.CoreCompileInputs.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.AssemblyInfoInputs.cache
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.AssemblyInfo.cs
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\bin\Debug\netstandard2.0\InterviewExercise.Core.pdb
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.dll
+C:\Projects\api\InterviewExercise\src\InterviewExercise.Core\obj\Debug\netstandard2.0\InterviewExercise.Core.pdb
