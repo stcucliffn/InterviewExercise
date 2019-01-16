@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-
-namespace InterviewExercise.Api.Controllers
+﻿namespace InterviewExercise.Api.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using System.Collections.Generic;
+
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
