@@ -8,12 +8,14 @@ module.exports = () => {
 
   for (let i = 1; i <= 100; i++) {
     accountType = faker.finance.accountName();
+    statusChoices = ["Active", "Closed"];
     data.accounts.push({
       id: faker.random.uuid(),
       memberId: faker.random.number({ min: 1, max: 5 }),
       lastFour: faker.finance.mask(),
       type: accountType,
       nickname: accountType,
+      status: statusChoices[Math.floor(Math.random() * statusChoices.length)],
       accountHolder: accountHolder,
       balance: parseFloat(faker.finance.amount())
     });

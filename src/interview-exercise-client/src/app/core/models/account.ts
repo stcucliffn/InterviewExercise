@@ -3,6 +3,7 @@ export class Account {
   lastFour: string;
   type: string;
   nickname: string;
+  status: string;
   accountHolder: string;
   balance: number;
 }

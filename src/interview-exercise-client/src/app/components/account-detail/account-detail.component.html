@@ -11,6 +11,9 @@
     <p><strong>Account Nickname</strong></p>
     <p>{{account.nickname}}</p>
 
+    <p><strong>Account Status</strong></p>
+    <p>{{account.status}}</p>
+
     <p><strong>Account Ending in</strong></p>
     <p>{{account.lastFour}}</p>
 
@@ -19,9 +22,9 @@
   </article>
 
   <div class="button-group">
-    <div class="left-group">
-      <button class="secondary-button" [routerLink]="['/']">Back to Accounts</button>
+    <div class="right-group">
       <button class="secondary-button" [routerLink]="['/edit', account.id]">Edit Nickname</button>
+      <button class="primary-button" [routerLink]="['/']">Back to Accounts</button>
     </div>
   </div>
   
