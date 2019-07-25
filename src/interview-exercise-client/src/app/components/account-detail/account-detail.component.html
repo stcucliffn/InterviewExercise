@@ -1,3 +1,19 @@
-<p class="alert alert-warning">
-  TODO: Implement <strong>account-detail</strong> component!
-</p>
+<article *ngIf="account">
+  <h2>Review your account details</h2>
+
+  <p><strong>Account Holder</strong></p>
+  <p>{{account.accountHolder}}</p>
+
+  <p><strong>Account Type</strong></p>
+  <p>{{account.type}}</p>
+
+  <p><strong>Account Ending in</strong></p>
+  <p>{{account.lastFour}}</p>
+
+  <p><strong>Account Balance</strong></p>
+  <p>{{account.balance | currency}}</p>
+
+</article>
+
+  <button class="secondary-button" [routerLink]="['/']">Back to Accounts</button>
+

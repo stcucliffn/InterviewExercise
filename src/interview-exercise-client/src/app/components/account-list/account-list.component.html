@@ -3,27 +3,29 @@
 </ng-template>
 
 <div *ngIf="accounts; else spinny">
-  <div class="form-set">
-    <div class="overline">
+ <div class="overline">
       Manage your accounts
     </div>
 
-    <h1 class="color-h1">Your primary accounts.</h1>
+    <h1>Show me my money!!</h1>
 
     <table>
+      <caption>
+        Your primary accounts
+      </caption>
+
       <thead>
         <tr>
           <th>Account</th>
           <th>Ending in</th>
           <th>Balance</th>
-          <th></th>
+          <td></td>
         </tr>
       </thead>
       <tbody>
         <tr app-account-list-item *ngFor="let account of accounts" [account]="account"></tr>
       </tbody>
     </table>
-  </div>
 
   <!-- TODO: Possibly implement this feature in the future -->
   <!-- <div class="form-set">

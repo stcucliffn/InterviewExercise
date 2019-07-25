@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { switchMap } from 'rxjs/operators';
+import { AccountsService } from '../../core/services/accounts.service';
+import { Account } from '../../core/models/account';
 
 @Component({
   selector: 'app-account-detail',
@@ -7,9 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccountDetailComponent implements OnInit {
 
-  constructor() { }
+  public account: Account;
+
+  constructor(private accountsService: AccountsService,
+    private route: ActivatedRoute,
+    private router: Router,) { }
 
   ngOnInit() {
+    this.accountsService.getAccount(this.route.snapshot.paramMap.get('id'), 1)
+      .subscribe((account:Account) => this.account = account);
   }
 
 }

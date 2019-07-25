@@ -21,7 +21,7 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
-    "@stcu/external-styles": "^3.1.1",
+    "@stcu/external-styles": "latest",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "uuid": "^3.3.2",

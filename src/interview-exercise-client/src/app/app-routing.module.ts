@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AccountListComponent } from './components/account-list/account-list.component';
 import { ErrorComponent } from './components/error/error.component';
+import { AccountDetailComponent } from './components/account-detail/account-detail.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,11 @@ const routes: Routes = [
   {
     path: 'accounts',
     component: AccountListComponent,
+    pathMatch: 'full'
+  },
+  {
+    path: 'accounts/:id',
+    component: AccountDetailComponent,
     pathMatch: 'full'
   },
   {
