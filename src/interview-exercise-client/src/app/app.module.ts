@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { AccountListComponent } from './components/account-list/account-list.com
 import { AccountListItemComponent } from './components/account-list-item/account-list-item.component';
 import { SpinnyComponent } from './components/spinny/spinny.component';
 import { ErrorComponent } from './components/error/error.component';
+import { AccountEditComponent } from './components/account-edit/account-edit.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { ErrorComponent } from './components/error/error.component';
     AccountListComponent,
     AccountListItemComponent,
     SpinnyComponent,
-    ErrorComponent
+    ErrorComponent,
+    AccountEditComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
     AppRoutingModule

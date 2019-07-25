@@ -1,0 +1,55 @@
+<article *ngIf="account">
+  <h2>Edit your account nickname</h2>
+
+  <form>
+    <fieldset>
+      <div>
+        <label for="accountHolder">Account Holder 
+          <input formcontrolname="accountHolder"
+            id="accountHolder" name="accountHolder" type="text" [(ngModel)]="account.accountHolder" disabled>
+        </label>
+      </div>
+
+      <div>
+        <label for="type">Account Type 
+          <input formcontrolname="type"
+            id="type" name="type" type="text" [(ngModel)]="account.type" disabled>
+        </label>
+      </div>
+
+      <div>
+        <label for="nickname">Account Nickname 
+          <input formcontrolname="nickname"
+            id="nickname" name="nickname" type="text" [(ngModel)]="account.nickname">
+        </label>
+      </div>
+
+      <div>
+        <label for="lastFour">Account Ending in
+          <input formcontrolname="lastFour"
+            id="lastFour" name="lastFour" type="text" [(ngModel)]="account.lastFour" disabled>
+        </label>
+      </div>
+
+      <div>
+        <label for="balance">Account Balance 
+          <input formcontrolname="balance"
+            id="balance" name="balance" type="text" [(ngModel)]="account.balance" disabled>
+        </label>
+      </div>
+
+    </fieldset>
+  </form>
+
+</article>
+
+<div class="button-group">
+    <div class="left-group">
+      <button class="secondary-button" [routerLink]="['/']">Back to Accounts</button>
+    </div>
+
+    <div class="right-group">
+        <button class="primary-button" (click)="saveAccount()">Save</button>
+    </div>
+
+  </div>

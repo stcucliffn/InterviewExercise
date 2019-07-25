@@ -7,11 +7,13 @@ module.exports = () => {
   let accountHolder = faker.fake('{{name.firstName}} {{name.lastName}}');
 
   for (let i = 1; i <= 100; i++) {
+    accountType = faker.finance.accountName();
     data.accounts.push({
       id: faker.random.uuid(),
       memberId: faker.random.number({ min: 1, max: 5 }),
       lastFour: faker.finance.mask(),
-      type: faker.finance.accountName(),
+      type: accountType,
+      nickname: accountType,
       accountHolder: accountHolder,
       balance: parseFloat(faker.finance.amount())
     });

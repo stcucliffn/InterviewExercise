@@ -1,19 +1,28 @@
-<article *ngIf="account">
-  <h2>Review your account details</h2>
+<div *ngIf="account">
+  <article>
+    <h2>Review your account details</h2>
 
-  <p><strong>Account Holder</strong></p>
-  <p>{{account.accountHolder}}</p>
+    <p><strong>Account Holder</strong></p>
+    <p>{{account.accountHolder}}</p>
 
-  <p><strong>Account Type</strong></p>
-  <p>{{account.type}}</p>
+    <p><strong>Account Type</strong></p>
+    <p>{{account.type}}</p>
 
-  <p><strong>Account Ending in</strong></p>
-  <p>{{account.lastFour}}</p>
+    <p><strong>Account Nickname</strong></p>
+    <p>{{account.nickname}}</p>
 
-  <p><strong>Account Balance</strong></p>
-  <p>{{account.balance | currency}}</p>
+    <p><strong>Account Ending in</strong></p>
+    <p>{{account.lastFour}}</p>
 
-</article>
+    <p><strong>Account Balance</strong></p>
+    <p>{{account.balance | currency}}</p>
+  </article>
 
-  <button class="secondary-button" [routerLink]="['/']">Back to Accounts</button>
-
+  <div class="button-group">
+    <div class="left-group">
+      <button class="secondary-button" [routerLink]="['/']">Back to Accounts</button>
+      <button class="secondary-button" [routerLink]="['/edit', account.id]">Edit Nickname</button>
+    </div>
+  </div>
+  
+</div>

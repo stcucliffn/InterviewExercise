@@ -1,8 +1,8 @@
-<th [attr.data-label]="account.type">
-  <a [routerLink]="['/accounts', account.id]">{{account.type}}</a>
+<th [attr.data-label]="account.nickname">
+  <a [routerLink]="['/accounts', account.id]">{{account.nickname}}</a>
 </th>
 <td data-label="Ending in">{{account.lastFour}}</td>
 <td data-label="Balance">{{account.balance | currency:'USD'}}</td>
 <td>
-      <button class="quaternary-button">Edit</button>
+      <button class="quaternary-button" [routerLink]="['/edit', account.id]">Edit</button>
 </td>

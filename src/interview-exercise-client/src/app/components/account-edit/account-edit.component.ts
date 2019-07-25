@@ -4,11 +4,11 @@ import { AccountsService } from '../../core/services/accounts.service';
 import { Account } from '../../core/models/account';
 
 @Component({
-  selector: 'app-account-detail',
-  templateUrl: './account-detail.component.html',
-  styleUrls: ['./account-detail.component.scss']
+  selector: 'app-account-edit',
+  templateUrl: './account-edit.component.html',
+  styleUrls: ['./account-edit.component.scss']
 })
-export class AccountDetailComponent implements OnInit {
+export class AccountEditComponent implements OnInit {
 
   public account: Account;
 
@@ -19,5 +19,10 @@ export class AccountDetailComponent implements OnInit {
   ngOnInit() {
     this.accountsService.getAccount(this.route.snapshot.paramMap.get('id'), 1)
       .subscribe((account:Account) => this.account = account);
+  }
+
+  public saveAccount() {
+    this.accountsService.editAccount(this.account)
+    .subscribe((account:Account) => this.router.navigate(['accounts']));
   }
 }
