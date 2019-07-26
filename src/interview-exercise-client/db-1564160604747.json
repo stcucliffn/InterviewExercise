@@ -1,0 +1,1004 @@
+{
+  "accounts": [
+    {
+      "id": "d79cccd4-243c-4df2-a150-87a5bc518087",
+      "memberId": 1,
+      "lastFour": "0728",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 246.39
+    },
+    {
+      "id": "b9e1f51e-6a76-48cc-9796-d96fc028b7b6",
+      "memberId": 2,
+      "lastFour": "3984",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 646.55
+    },
+    {
+      "id": "00f2b0ea-e9f8-4604-865c-89119b920095",
+      "memberId": 5,
+      "lastFour": "4709",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 382.71
+    },
+    {
+      "id": "1ce4c967-03e6-4c09-b3f4-1a1eba957310",
+      "memberId": 2,
+      "lastFour": "0874",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 979.84
+    },
+    {
+      "id": "b0f4b6f9-9e8a-42b2-afbb-d7ae76229286",
+      "memberId": 5,
+      "lastFour": "0455",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 781.88
+    },
+    {
+      "id": "4d302a6c-fb0c-4e82-bf2c-00941efd523b",
+      "memberId": 3,
+      "lastFour": "3998",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 613.37
+    },
+    {
+      "id": "b582be2b-dbbe-47c1-954e-2653a919065a",
+      "memberId": 3,
+      "lastFour": "2862",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 477.67
+    },
+    {
+      "id": "f2cf0235-1920-46ea-b989-1a55bf238d4f",
+      "memberId": 5,
+      "lastFour": "3632",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 260.92
+    },
+    {
+      "id": "ac2c6c0e-5a69-473a-bff8-e6f0d08a70e6",
+      "memberId": 5,
+      "lastFour": "0543",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 362.78
+    },
+    {
+      "id": "9d630b65-3c8c-4cb8-9871-d6bb7e0855ba",
+      "memberId": 3,
+      "lastFour": "9326",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 904.82
+    },
+    {
+      "id": "82cb8295-5911-48cc-b0f0-efa6e7bcb90e",
+      "memberId": 3,
+      "lastFour": "3243",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 833.84
+    },
+    {
+      "id": "1cd8ca7a-6507-4263-b1fe-590ee6d153ab",
+      "memberId": 2,
+      "lastFour": "4252",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 746.25
+    },
+    {
+      "id": "e13a4cfe-d614-4559-96e0-62060c269c16",
+      "memberId": 2,
+      "lastFour": "9026",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 92.85
+    },
+    {
+      "id": "fd445cf9-80d9-4daa-a0c0-918daeab30c8",
+      "memberId": 5,
+      "lastFour": "3766",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 141.12
+    },
+    {
+      "id": "dd7af588-a6f0-4892-97fb-a6126c082c99",
+      "memberId": 1,
+      "lastFour": "1505",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 13.22
+    },
+    {
+      "id": "7bfea454-2b3e-4efe-a85e-92dea51d4cf5",
+      "memberId": 3,
+      "lastFour": "8535",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 637.22
+    },
+    {
+      "id": "32480f36-cb32-4617-a828-4c85c8e5add9",
+      "memberId": 3,
+      "lastFour": "4635",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 604.34
+    },
+    {
+      "id": "70fce250-5090-4687-a8f4-1254f665ea93",
+      "memberId": 5,
+      "lastFour": "4837",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 565.27
+    },
+    {
+      "id": "fff8b37e-6332-4cb6-bf8d-7b0193f6f3ec",
+      "memberId": 1,
+      "lastFour": "4654",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 284.42
+    },
+    {
+      "id": "a0ad5a01-4e2c-4352-9581-0c667536dcba",
+      "memberId": 3,
+      "lastFour": "0434",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 919.73
+    },
+    {
+      "id": "297c2448-f1eb-42ef-91f0-2d0d7cebd778",
+      "memberId": 5,
+      "lastFour": "9203",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 765.2
+    },
+    {
+      "id": "4bc04459-0e05-4f1f-8fb7-42dfeccd44ff",
+      "memberId": 5,
+      "lastFour": "7739",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 260.95
+    },
+    {
+      "id": "776c9fba-0e5b-4307-9e54-ec7628f405ae",
+      "memberId": 1,
+      "lastFour": "1126",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 14.5
+    },
+    {
+      "id": "9bbcb672-736c-420b-b02a-a68493d4f83a",
+      "memberId": 4,
+      "lastFour": "3682",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 206.37
+    },
+    {
+      "id": "d848a575-459f-4a3d-a496-0e8c3b1fd509",
+      "memberId": 5,
+      "lastFour": "6304",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 353.47
+    },
+    {
+      "id": "92863962-3f02-40c9-b5c9-4c0375bc19a7",
+      "memberId": 2,
+      "lastFour": "9562",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 697.42
+    },
+    {
+      "id": "beadc2ea-8e1b-488c-a203-db1480d00eb4",
+      "memberId": 3,
+      "lastFour": "0100",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 851.53
+    },
+    {
+      "id": "63b1f6f0-9e7e-4ace-b198-e0ff1f5fbba0",
+      "memberId": 4,
+      "lastFour": "8817",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 289.02
+    },
+    {
+      "id": "e28cc551-dbae-4a06-aa69-53021a741fdd",
+      "memberId": 5,
+      "lastFour": "4121",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 540.63
+    },
+    {
+      "id": "2f2c62ae-cd26-4d2b-8f10-ef2c59a2966e",
+      "memberId": 2,
+      "lastFour": "7014",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 120.72
+    },
+    {
+      "id": "7c13ed20-5e23-4925-90db-d9533a81450b",
+      "memberId": 4,
+      "lastFour": "1590",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 44.94
+    },
+    {
+      "id": "1facd5e5-85f7-4b94-922d-d6b528dc0aa9",
+      "memberId": 1,
+      "lastFour": "9263",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 661.97
+    },
+    {
+      "id": "c7fcbaf8-99f0-4b90-b838-9fdbc05850f7",
+      "memberId": 2,
+      "lastFour": "9271",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 771.92
+    },
+    {
+      "id": "a4b8d166-178c-4cbb-b209-4a6b0174d0ea",
+      "memberId": 2,
+      "lastFour": "0910",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 33.72
+    },
+    {
+      "id": "6cb1c786-dddb-4f54-8dba-6cd19df6ee71",
+      "memberId": 1,
+      "lastFour": "9093",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 504.63
+    },
+    {
+      "id": "893842fe-bb75-4bd9-9b19-80e7229c0b2b",
+      "memberId": 1,
+      "lastFour": "6994",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 771.19
+    },
+    {
+      "id": "ea0886eb-92b6-4640-8526-78a40d3d4dbd",
+      "memberId": 2,
+      "lastFour": "8437",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 709.78
+    },
+    {
+      "id": "57aaee65-5d2a-4db0-b8fe-3a0f300bbbd4",
+      "memberId": 5,
+      "lastFour": "1455",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 309.2
+    },
+    {
+      "id": "119c023c-4ef7-49e5-a03a-af60916195f9",
+      "memberId": 3,
+      "lastFour": "9931",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 516.09
+    },
+    {
+      "id": "49788c6d-0f59-4c41-9662-959a7d3275ee",
+      "memberId": 4,
+      "lastFour": "2085",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 313.45
+    },
+    {
+      "id": "0f1f2b65-36de-4636-a57e-011feeeee84d",
+      "memberId": 2,
+      "lastFour": "7665",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 975.54
+    },
+    {
+      "id": "49a2fd8d-917e-4b00-9fe1-d9a958863ad1",
+      "memberId": 1,
+      "lastFour": "3307",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 676.7
+    },
+    {
+      "id": "99e34d1a-2793-4dd4-9335-3496a7f324cd",
+      "memberId": 1,
+      "lastFour": "2349",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 16.54
+    },
+    {
+      "id": "64ccef21-d906-4be3-9628-0c4b3d082f1c",
+      "memberId": 4,
+      "lastFour": "1209",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 278.37
+    },
+    {
+      "id": "4d631658-9866-4264-9263-7c69a0ea926a",
+      "memberId": 2,
+      "lastFour": "1841",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 836.66
+    },
+    {
+      "id": "7b3bf681-3c78-45b4-926b-ecf684b202d1",
+      "memberId": 5,
+      "lastFour": "6348",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 409.79
+    },
+    {
+      "id": "f758ecb4-e7ad-45a5-9320-6deda9659a04",
+      "memberId": 5,
+      "lastFour": "5697",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 186.21
+    },
+    {
+      "id": "a50c4dda-79ce-4a7d-bcd7-b56e0af69c05",
+      "memberId": 3,
+      "lastFour": "2503",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 820.98
+    },
+    {
+      "id": "07994dfd-ac68-4a9d-b89a-c0fcc99b237b",
+      "memberId": 2,
+      "lastFour": "6177",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 864.42
+    },
+    {
+      "id": "c16a4857-7470-4b4c-8a0d-c552e6cefafb",
+      "memberId": 3,
+      "lastFour": "9379",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 766.29
+    },
+    {
+      "id": "23c5769f-29d2-4299-ab26-fa29dea46530",
+      "memberId": 4,
+      "lastFour": "5865",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 501.55
+    },
+    {
+      "id": "b0027cc6-0594-4ebc-bd88-e52be5b568dd",
+      "memberId": 2,
+      "lastFour": "7520",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 535.87
+    },
+    {
+      "id": "b5a19075-154f-4cf6-ab8d-7f6dea8cc2e0",
+      "memberId": 4,
+      "lastFour": "9440",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 392.18
+    },
+    {
+      "id": "d313e2c5-6e16-4c2c-820a-190d77952982",
+      "memberId": 4,
+      "lastFour": "2985",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 189.8
+    },
+    {
+      "id": "7830d708-e2da-452a-b0f0-2a0d1f1fd0a8",
+      "memberId": 4,
+      "lastFour": "1059",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 890.81
+    },
+    {
+      "id": "0a4e1677-daf4-42a6-b3c4-35bd7f6fe625",
+      "memberId": 1,
+      "lastFour": "7345",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 477.04
+    },
+    {
+      "id": "0591ff8d-90b1-42d7-aa90-794507e2e9bc",
+      "memberId": 4,
+      "lastFour": "1359",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 764.91
+    },
+    {
+      "id": "5705515f-64a2-4c37-8bf3-8ea15b2ba66b",
+      "memberId": 1,
+      "lastFour": "9585",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 674.74
+    },
+    {
+      "id": "4047f891-7de3-4d0e-b51e-deb2321867ba",
+      "memberId": 4,
+      "lastFour": "6197",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 731.29
+    },
+    {
+      "id": "f87680e8-5a52-4bad-806b-d3681a011b74",
+      "memberId": 4,
+      "lastFour": "7048",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 985.2
+    },
+    {
+      "id": "f0f5d678-f7a7-4813-9908-79e6c13ab450",
+      "memberId": 3,
+      "lastFour": "2005",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 525.21
+    },
+    {
+      "id": "24d20ec7-9a5c-4b4a-8c61-66e8de730918",
+      "memberId": 1,
+      "lastFour": "7278",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 736.97
+    },
+    {
+      "id": "90a99ce6-5864-4bae-9cd9-c53aa2d57d99",
+      "memberId": 1,
+      "lastFour": "6438",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 219.13
+    },
+    {
+      "id": "97734079-a991-49b7-aa53-75ab97c44678",
+      "memberId": 4,
+      "lastFour": "2547",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 955.55
+    },
+    {
+      "id": "b813d79c-d103-42ce-9edc-f2f0f4841eb1",
+      "memberId": 3,
+      "lastFour": "9774",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 899.56
+    },
+    {
+      "id": "2f8e3c36-13e4-4d91-bac2-0373baab6ebf",
+      "memberId": 2,
+      "lastFour": "8257",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 140.11
+    },
+    {
+      "id": "4b606395-4991-4237-91ca-c04ac93e4ad9",
+      "memberId": 4,
+      "lastFour": "1365",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 307.98
+    },
+    {
+      "id": "21708d6a-8d21-4fdf-8df7-3bc16e6a4782",
+      "memberId": 1,
+      "lastFour": "1033",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 260.55
+    },
+    {
+      "id": "27de72bb-4de2-4afe-82e6-0a4cdb490c21",
+      "memberId": 1,
+      "lastFour": "5743",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 952.75
+    },
+    {
+      "id": "2071ecd5-d1e6-40aa-ae3b-7fb71886d8fa",
+      "memberId": 4,
+      "lastFour": "0271",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 13.59
+    },
+    {
+      "id": "25274850-e0b0-498f-8970-fac5438a38c6",
+      "memberId": 1,
+      "lastFour": "7892",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 846.87
+    },
+    {
+      "id": "26c1de92-ce00-4d2e-9a47-d7e5e4d2da49",
+      "memberId": 5,
+      "lastFour": "6619",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 40.95
+    },
+    {
+      "id": "5a0a18a2-3fb1-42bc-814a-358aed95fa6f",
+      "memberId": 3,
+      "lastFour": "5619",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 538.05
+    },
+    {
+      "id": "4852eb02-b068-4e02-8409-2adec040607e",
+      "memberId": 1,
+      "lastFour": "7628",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 889.94
+    },
+    {
+      "id": "5667e885-c15a-402a-bb0a-edd52ed88627",
+      "memberId": 1,
+      "lastFour": "4298",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 78.53
+    },
+    {
+      "id": "fbf6a98b-b82c-40d1-8081-9602f219d627",
+      "memberId": 1,
+      "lastFour": "0342",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 605.61
+    },
+    {
+      "id": "59472158-b347-4e42-84ed-5c69e4c187e0",
+      "memberId": 5,
+      "lastFour": "0415",
+      "type": "Savings Account",
+      "nickname": "Savings Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 524.38
+    },
+    {
+      "id": "a2c68d67-0b1a-47ac-890f-46b0148fe3ff",
+      "memberId": 4,
+      "lastFour": "1733",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 815.71
+    },
+    {
+      "id": "da92e780-3cd3-40d9-802e-e2173c5c2f59",
+      "memberId": 3,
+      "lastFour": "0107",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 122.96
+    },
+    {
+      "id": "70d5784a-deea-4107-b4e6-c9498d1b96b4",
+      "memberId": 1,
+      "lastFour": "2455",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 654.24
+    },
+    {
+      "id": "d157f9d8-9219-4bca-b60e-0d85981cbd14",
+      "memberId": 1,
+      "lastFour": "6744",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 77.17
+    },
+    {
+      "id": "55bc5282-48c0-455c-9b8f-785e3b258e75",
+      "memberId": 5,
+      "lastFour": "0998",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 966.14
+    },
+    {
+      "id": "33db7919-7769-4d1c-8a7a-c3ecba23b197",
+      "memberId": 2,
+      "lastFour": "3731",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 567.08
+    },
+    {
+      "id": "9b30ee27-a1ce-421d-ad35-e57b5820b8d0",
+      "memberId": 2,
+      "lastFour": "8904",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 372.64
+    },
+    {
+      "id": "9221212c-0b65-4add-8ed6-2c429ae601dd",
+      "memberId": 1,
+      "lastFour": "6443",
+      "type": "Home Loan Account",
+      "nickname": "Home Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 759.73
+    },
+    {
+      "id": "6ce83248-b9d7-4d28-bd63-27a9934346cf",
+      "memberId": 1,
+      "lastFour": "9239",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 898.63
+    },
+    {
+      "id": "fe598cb5-7616-496d-bf31-293cb7afc9cc",
+      "memberId": 1,
+      "lastFour": "0032",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 40.75
+    },
+    {
+      "id": "b9ae1e32-5100-4545-9773-350cecf5cd07",
+      "memberId": 3,
+      "lastFour": "8638",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Closed",
+      "accountHolder": "Claude Kunze",
+      "balance": 541.99
+    },
+    {
+      "id": "d4dcbc0c-3f06-42a5-886c-6251d9769725",
+      "memberId": 3,
+      "lastFour": "3575",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 93.71
+    },
+    {
+      "id": "18a5acd9-2665-46e7-ab09-1027a14d9381",
+      "memberId": 2,
+      "lastFour": "7689",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 411.16
+    },
+    {
+      "id": "f0a751c7-0b01-4736-b181-70c5491a81c7",
+      "memberId": 3,
+      "lastFour": "4035",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 49.82
+    },
+    {
+      "id": "42de9162-d0fc-4e81-a081-cf4485092d22",
+      "memberId": 4,
+      "lastFour": "2157",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 224.82
+    },
+    {
+      "id": "2b25bc1d-6ed3-4792-8a41-06114d0f97b3",
+      "memberId": 4,
+      "lastFour": "5651",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 25.97
+    },
+    {
+      "id": "34115044-50e7-4684-b434-a202487687f8",
+      "memberId": 4,
+      "lastFour": "0813",
+      "type": "Money Market Account",
+      "nickname": "Money Market Account",
+      "status": "Active",
+      "accountHolder": "Claude Kunze",
+      "balance": 385.76
+    },
+    {
+      "id": "ba5b1134-3076-480c-a1d1-614813ce79e0",
+      "memberId": 1,
+      "lastFour": "0267",
+      "type": "Investment Account",
+      "nickname": "Investment Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 489.9
+    },
+    {
+      "id": "7d6dc0b1-8733-4032-a138-d8e7daf9a109",
+      "memberId": 5,
+      "lastFour": "8999",
+      "type": "Checking Account",
+      "nickname": "Checking Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 296.4
+    },
+    {
+      "id": "2e114dcb-2fc1-4e4e-be29-431336f9f100",
+      "memberId": 1,
+      "lastFour": "6906",
+      "type": "Credit Card Account",
+      "nickname": "Credit Card Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 376.16
+    },
+    {
+      "id": "1fa199ad-6399-4df7-b441-7fa29bbc5573",
+      "memberId": 2,
+      "lastFour": "4490",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Restricted",
+      "accountHolder": "Claude Kunze",
+      "balance": 576.12
+    },
+    {
+      "id": "12017e6d-cfed-4608-9a24-98147bd15f57",
+      "memberId": 5,
+      "lastFour": "6641",
+      "type": "Personal Loan Account",
+      "nickname": "Personal Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 64.67
+    },
+    {
+      "id": "41c94a95-528a-406e-9b3c-aa9e1c0cd626",
+      "memberId": 1,
+      "lastFour": "5192",
+      "type": "Auto Loan Account",
+      "nickname": "Auto Loan Account",
+      "status": "Dormant",
+      "accountHolder": "Claude Kunze",
+      "balance": 697.48
+    }
+  ]
+}

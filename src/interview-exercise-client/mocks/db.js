@@ -8,7 +8,7 @@ module.exports = () => {
 
   for (let i = 1; i <= 100; i++) {
     accountType = faker.finance.accountName();
-    statusChoices = ["Active", "Closed"];
+    statusChoices = ["Active", "Restricted", "Dormant", "Closed"];
     data.accounts.push({
       id: faker.random.uuid(),
       memberId: faker.random.number({ min: 1, max: 5 }),

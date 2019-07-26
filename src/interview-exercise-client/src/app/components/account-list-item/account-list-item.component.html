@@ -1,6 +1,7 @@
 <th [attr.data-label]="account.nickname">
   <a [routerLink]="['/accounts', account.id]">{{account.nickname}}</a>
 </th>
+<td data-label="Status">{{account.status}}</td>
 <td data-label="Ending in">{{account.lastFour}}</td>
 <td data-label="Balance">{{account.balance | currency:'USD'}}</td>
 <td>

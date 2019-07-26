@@ -25,6 +25,13 @@
       </div>
 
       <div>
+        <label for="type">Account Status 
+          <input formcontrolname="status"
+            id="status" name="status" type="text" [(ngModel)]="account.status" disabled>
+        </label>
+      </div>
+
+      <div>
         <label for="lastFour">Account Ending in
           <input formcontrolname="lastFour"
             id="lastFour" name="lastFour" type="text" [(ngModel)]="account.lastFour" disabled>
