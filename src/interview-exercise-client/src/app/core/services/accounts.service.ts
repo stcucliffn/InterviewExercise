@@ -14,11 +14,11 @@ export class AccountsService {
   constructor(private http: HttpClient) {}
 
   public getAccounts(memberId: number): Observable<Account[]> {
-    return this.http.get<Account[]>(`${this.apiUrl}?memberId=${memberId}`);
+    return this.http.get<Account[]>(`${this.apiUrl}/${memberId}`);
   }
 
-  public getAccount(id: string, memberId: number): Observable<Account> {
-    return this.http.get<Account>(`${this.apiUrl}/${id}?memberId=${memberId}`);
+  public getAccount(id: string): Observable<Account> {
+    return this.http.get<Account>(`${this.apiUrl}/GetAccount/${id}`);
   }
 
   public editAccount(account: Account): Observable<Account> {

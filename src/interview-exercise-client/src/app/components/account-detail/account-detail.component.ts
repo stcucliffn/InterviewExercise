@@ -17,7 +17,7 @@ export class AccountDetailComponent implements OnInit {
     private router: Router) { }
 
   ngOnInit() {
-    this.accountsService.getAccount(this.route.snapshot.paramMap.get('id'), 1)
+    this.accountsService.getAccount(this.route.snapshot.paramMap.get('id'))
       .subscribe((account:Account) => this.account = account);
   }
 }
