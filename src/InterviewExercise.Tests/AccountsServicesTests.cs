@@ -32,13 +32,13 @@
             return new Account()
             {
                 AccountId = 1,
-                AccountNo = "5432674456",
+                AccountNo = "20020001100",
                 Balance = 100.00M,
-                FirstName = "Mario",
-                LastName = "Luigi",
+                FirstName = "Luigi",
+                LastName = "Mario",
                 MemberId = 185265,
-                Nickname = "testnickname",
-                Status = "active",
+                Nickname = "testAccount",
+                Status = "Active",
                 Type = "CKG"
             };
         }
@@ -48,7 +48,7 @@
         {
             stubbedAccountsRepository.SetMockAccount(mockAccount);
             var result = sut.GetAccount(1);
-            Assert.AreEqual("testnickname", result.Nickname);
+            Assert.AreEqual("testAccount", result.Nickname);
         }
 
         [TestCase("CKG","Checking")]
@@ -67,7 +67,7 @@
         {
             stubbedAccountsRepository.SetMockAccount(mockAccount);
             var result = sut.GetAccount(mockAccount.MemberId);
-            Assert.AreEqual("4456", result.LastFour);
+            Assert.AreEqual("1100", result.LastFour);
             Assert.AreEqual(4, result.LastFour.Length);
         }
 
