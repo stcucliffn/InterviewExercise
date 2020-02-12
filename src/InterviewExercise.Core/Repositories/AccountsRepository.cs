@@ -6,6 +6,7 @@ using System.Text;
 using Dapper;
 using InterviewExercise.Core.Models;
 
+
 namespace InterviewExercise.Core.Repositories
 {
     public interface IAccountsRepository
@@ -14,6 +15,8 @@ namespace InterviewExercise.Core.Repositories
         Account GetAccount(int accountId);
         void UpdateNickname(AccountDTO accountDto);
     }
+
+
     public class AccountsRepository : IAccountsRepository
     {
         private string sqlConnection;
@@ -22,6 +25,7 @@ namespace InterviewExercise.Core.Repositories
         {
             this.sqlConnection = sqlConnection;
         }
+
 
         public List<Account> GetAccountsForMember(int rim)
         {
@@ -32,6 +36,7 @@ namespace InterviewExercise.Core.Repositories
             }
         }
 
+
         public Account GetAccount(int accountId)
         {
             using (var connection = new SqlConnection(sqlConnection))
@@ -40,6 +45,7 @@ namespace InterviewExercise.Core.Repositories
                 return account;
             }
         }
+
 
         public void UpdateNickname(AccountDTO accountDto)
         {

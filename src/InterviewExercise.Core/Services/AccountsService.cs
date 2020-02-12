@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace InterviewExercise.Core.Services
 {
     public interface IAccountsService
@@ -13,6 +14,7 @@ namespace InterviewExercise.Core.Services
         AccountDTO GetAccount(int accountNumber);
         void UpdateNickName(AccountDTO accountDto);
     }
+
 
     public class AccountsService : IAccountsService
     {
@@ -23,14 +25,16 @@ namespace InterviewExercise.Core.Services
             this.accountsRepository = accountsRepository;
         }
 
+
         public List<AccountDTO> GetAccountsForMember(int rim)
         {
             return accountsRepository
                 .GetAccountsForMember(rim)
                 .Select(account => MapAccountToAccountDTO(account))
-                .Where(account => account.Status.Equals("active"))
+                .Where(account => account.Status.Equals("active", StringComparison.OrdinalIgnoreCase))
                 .ToList();
         }
+
 
         public AccountDTO GetAccount(int accountId)
         {
@@ -38,10 +42,12 @@ namespace InterviewExercise.Core.Services
                 .GetAccount(accountId));
         }
 
+
         public void UpdateNickName(AccountDTO accountDto)
         {
             accountsRepository.UpdateNickname(accountDto);
         }
+
 
         private AccountDTO MapAccountToAccountDTO(Account account)
         {
@@ -57,6 +63,7 @@ namespace InterviewExercise.Core.Services
             };
         }
 
+
         private string Truncate(string accountNumber)
         {
             var length = accountNumber.Length;
@@ -70,7 +77,7 @@ namespace InterviewExercise.Core.Services
 
             if (string.IsNullOrWhiteSpace(account.Nickname))
             {
-                accountNickname = (account.Type.Equals("sav")) ? "Savings" : "Checking";
+                accountNickname = (account.Type.Equals("sav", StringComparison.OrdinalIgnoreCase)) ? "Savings" : "Checking";
             }
 
             return accountNickname;

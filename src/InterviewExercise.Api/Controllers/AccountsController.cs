@@ -1,10 +1,8 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using InterviewExercise.Core.Models;
 using InterviewExercise.Core.Services;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace InterviewExercise.Api.Controllers
 {
@@ -18,6 +16,7 @@ namespace InterviewExercise.Api.Controllers
         {
             this.accountsService = accountsService;
         }
+
 
         // GET api/values/5
         [HttpGet("{id}")]
@@ -33,6 +32,7 @@ namespace InterviewExercise.Api.Controllers
         {
             return accountsService.GetAccount(accountId);
         }
+
 
         // PUT api/values/5
         [HttpPut("{accountId}")]
